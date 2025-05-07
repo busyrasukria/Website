@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../img/bg.jpg');
+    background-attachment: fixed;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #9abfdb;
+    padding: 40px;
+    text-align: center;
+}
+
+header.bg-primary {
+    background-color: #9abfdb !important;
+}
+
+header h1 {
+    font-family: 'Brush Script MT', 'cursive', sans-serif;
+    font-size: 80px;
+    color: #f6f7f0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    font-weight: 700;
+}
+
+.navbar {
+    background-color: #9abfdb;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+    color: #3b8ac2;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: #f6f7f0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    font-weight: 700;
+}
+
+footer {
+    background-color: #9abfdb !important;
+    color: #9abfdb;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+footer.bg-dark {
+    background-color: #9abfdb !important;
+}
+
+.card-header {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #9abfdb
+}
+
+.card {
+    padding: 10px;
+    border: 3px solid #9abfdb;
+    border-radius: 8px;
+    min-height: 300px;
+    background-color: #f6f7f0;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.status-available {
+    color: green;
+    font-weight: bold;
+}
+
+.status-borrowed {
+    color: red;
+    font-weight: bold;
+}
+
+.status-button {
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-available {
+    background-color: rgba(0, 128, 0, 0.49);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-borrowed {
+    background-color: rgba(255, 0, 0, 0.666);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-available:hover {
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+}
+
+.btn-borrowed:hover { 
+    background-color: rgba(0, 128, 0, 0.69);
+    color: white;
+}
+
+.btn-container {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.btn-secondary {
+    width: 500px;
+    padding: 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #9abfdb;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: #004f73;
+    transform: scale(1.05);
+}
